@@ -148,6 +148,11 @@ QtObject {
         Qt.quit()
     }
 
+    function cleanup() {
+        storeSettings()
+        storeCustomProfiles()
+    }
+
     property Storage storage: Storage {}
 
     function stringify(obj) {
