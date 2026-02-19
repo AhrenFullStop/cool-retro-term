@@ -53,6 +53,10 @@ ShaderTerminal {
         terminal.mainTerminal.forceActiveFocus()
     }
 
+    function stopTimers() {
+        timeManager.running = false
+    }
+
     //  EFFECTS  ////////////////////////////////////////////////////////////////
     Loader {
         id: bloomEffectLoader
