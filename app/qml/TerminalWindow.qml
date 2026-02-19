@@ -182,6 +182,7 @@ ApplicationWindow {
         }
     }
     onClosing: {
+        appSettings.cleanup()
         appRoot.closeWindow(terminalWindow)
     }
 }
