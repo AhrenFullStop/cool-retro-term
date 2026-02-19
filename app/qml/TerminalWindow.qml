@@ -182,6 +182,7 @@ ApplicationWindow {
         }
     }
     onClosing: {
+        terminalTabs.stopAllTimers()
         appSettings.cleanup()
         appRoot.closeWindow(terminalWindow)
     }

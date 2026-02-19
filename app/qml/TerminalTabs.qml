@@ -53,6 +53,15 @@ Item {
         tabBar.currentIndex = Math.min(tabBar.currentIndex, tabsModel.count - 1)
     }
 
+    function stopAllTimers() {
+        for (var i = 0; i < stack.count; i++) {
+            var container = stack.children[i]
+            if (container && container.stopTimers) {
+                container.stopTimers()
+            }
+        }
+    }
+
     ListModel {
         id: tabsModel
     }
