@@ -55,3 +55,6 @@ build
 .DS_Store
 *.app
 *.dmg
+
+# Auto Claude data directory
+.auto-claude/

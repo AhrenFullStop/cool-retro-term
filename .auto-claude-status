@@ -1,0 +1,25 @@
+{
+  "active": true,
+  "spec": "003-whenever-i-close-the-app-my-mac-gives-me-the-loadi",
+  "state": "building",
+  "subtasks": {
+    "completed": 4,
+    "total": 6,
+    "in_progress": 1,
+    "failed": 0
+  },
+  "phase": {
+    "current": "Terminal Session Cleanup",
+    "id": null,
+    "total": 1
+  },
+  "workers": {
+    "active": 0,
+    "max": 1
+  },
+  "session": {
+    "number": 5,
+    "started_at": "2026-02-20T01:45:11.179247"
+  },
+  "last_update": "2026-02-20T01:51:36.272466"
+}
