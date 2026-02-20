@@ -1,0 +1,25 @@
+{
+  "active": true,
+  "spec": "001-click-to-focus",
+  "state": "complete",
+  "subtasks": {
+    "completed": 1,
+    "total": 1,
+    "in_progress": 0,
+    "failed": 0
+  },
+  "phase": {
+    "current": "Implementation",
+    "id": 1,
+    "total": 1
+  },
+  "workers": {
+    "active": 0,
+    "max": 1
+  },
+  "session": {
+    "number": 1,
+    "started_at": "2026-02-20T08:48:28.148132"
+  },
+  "last_update": "2026-02-20T08:49:29.238898"
+}
