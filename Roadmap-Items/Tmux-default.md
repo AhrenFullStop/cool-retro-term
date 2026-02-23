@@ -1,6 +1,10 @@
-Everytime I startup this terminal i have to manually initialize tmux by invoking the tmux command. I want it to startup with tmux enabled by default.
+This is a cool retro terminal app that we compile from source and use as a `.app` file on macOS.
 
-- we should also have right click menu for tmux options
-- we should also have a new context menu option called "panes" that includes tmux commands for splitting panes, resizing panes, moving panes, etc.
-- these menu items must perform the action when clicked reliably and be done in a robust way
-- Tmux forces users to use commands to switch which terminal is in active focus. We want to add a feature that allows users to switch between panes using the mouse cursor. they should be able to click on a specific pane to switch to it. 
+The tast is to improve the app for our usecase.
+
+Currently, Everytime I startup this terminal I have to manually initialize tmux by invoking the tmux command. I want it to startup with tmux enabled by default.
+
+- we should also have right click menu for tmux options (already present by default)
+- I must be able to copy text from the terminal using the mouse cursor. This is hyper NB and currently is not working from the context of a tmux session/terminal running in the terminal.
+
+Right now I can hilight some text, as soon as i let go of the mouse button the text is no longer selected and I cannot copy it. If i copy it while holding the key, I can visually see the "Edit" > "Copy" action happening from keypress (the context menu hilights briefly to indicate that the action was registered) but the text is not copied to the clipboard. I have tested this in a normal terminal (not tmux) and it works as expected. I have also tested this in a tmux session running in a normal terminal and it works as expected. This is only happening in the context of a tmux session/terminal running in the cool-retro terminal.

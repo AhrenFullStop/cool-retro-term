@@ -66,8 +66,8 @@ QtObject {
     property real contrast: 0.80
     property real brightness: 0.5
 
-    property bool useCustomCommand: false
-    property string customCommand: ""
+    property bool useCustomCommand: true
+    property string customCommand: "/bin/zsh && tmux"
 
     property string _backgroundColor: "#000000"
     property string _fontColor: "#ff8100"
