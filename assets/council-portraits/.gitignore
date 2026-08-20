@@ -1,0 +1,5 @@
+# Rendered output — regenerate with generate.py rather than committing.
+png/
+
+# The repo root .gitignore blanket-ignores *.json; the manifest is source, not build output.
+!prompts.json

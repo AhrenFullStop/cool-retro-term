@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "shared_style_prefix": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain.",
+  "state_order": [
+    "idle",
+    "thinking",
+    "done"
+  ],
+  "members": [
+    {
+      "slug": "ideas-man",
+      "name": "Ideas Man",
+      "accent": {
+        "name": "violet",
+        "hex": "#6B5F9E"
+      },
+      "character": "Young, wiry, energetic man. Tousled unruly hair suggesting a mind that won't stop. Open collar. Slight asymmetry - always leaning forward.",
+      "identity_anchor": "Same young wiry man in every state: same face, same open-collar shirt, same tousled hair, violet (#6B5F9E) as the single accent colour."
+    },
+    {
+      "slug": "product-guy",
+      "name": "Product Guy",
+      "accent": {
+        "name": "rose",
+        "hex": "#B98D93"
+      },
+      "character": "Polished, sleek, design-conscious man. Immaculate hair, minimal clothing, refined features. Everything about him is intentional.",
+      "identity_anchor": "Same polished man in every state: same face, same immaculate hair, same minimal collarless garment, rose (#B98D93) as the single accent colour."
+    },
+    {
+      "slug": "pragmatist",
+      "name": "Pragmatist",
+      "accent": {
+        "name": "steel blue",
+        "hex": "#4A79B8"
+      },
+      "character": "Meticulous, precise man. Clean glasses, tidy appearance, neutral expression by default. The look of someone who reads the fine print.",
+      "identity_anchor": "Same meticulous man in every state: same face, same thin-framed clean glasses, same tidy buttoned shirt, steel blue (#4A79B8) as the single accent colour."
+    },
+    {
+      "slug": "ponytail",
+      "name": "Ponytail",
+      "accent": {
+        "name": "azure",
+        "hex": "#4A9AD8"
+      },
+      "character": "Relaxed, laid-back man with an actual ponytail. Casual clothing, a hoodie. The lean-back posture of someone who has been paged at 3am too many times.",
+      "identity_anchor": "Same laid-back man in every state: same face, same light stubble, same tied-back ponytail, same hoodie, azure (#4A9AD8) as the single accent colour."
+    },
+    {
+      "slug": "cto",
+      "name": "CTO",
+      "accent": {
+        "name": "indigo",
+        "hex": "#22357F"
+      },
+      "character": "Mature, dignified, bearded man. Authoritative without being stern. The gravitas of someone who has scaled systems to millions. Darker clothing, structured.",
+      "identity_anchor": "Same mature bearded man in every state: same face, same neatly trimmed full beard, same dark structured jacket, indigo (#22357F) as the single accent colour."
+    }
+  ],
+  "images": [
+    {
+      "id": "ideas-man-idle",
+      "member": "Ideas Man",
+      "member_slug": "ideas-man",
+      "state": "idle",
+      "accent_name": "violet",
+      "accent_hex": "#6B5F9E",
+      "filename": "ideas-man-idle.png",
+      "source": "user-supplied",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Young, wiry, energetic man. Tousled unruly hair suggesting a mind that won't stop. Open collar. Slight asymmetry - always leaning forward. Same young wiry man in every state: same face, same open-collar shirt, same tousled hair, violet (#6B5F9E) as the single accent colour. Calm but restless energy. Eyes slightly widened, scanning the middle distance. A faint half-smile - he is already thinking of something. Hair slightly disheveled. Violet accent used sparingly."
+    },
+    {
+      "id": "ideas-man-thinking",
+      "member": "Ideas Man",
+      "member_slug": "ideas-man",
+      "state": "thinking",
+      "accent_name": "violet",
+      "accent_hex": "#6B5F9E",
+      "filename": "ideas-man-thinking.png",
+      "source": "user-supplied",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Young, wiry, energetic man. Tousled unruly hair suggesting a mind that won't stop. Open collar. Slight asymmetry - always leaning forward. Same young wiry man in every state: same face, same open-collar shirt, same tousled hair, violet (#6B5F9E) as the single accent colour. Intense upward gaze, one hand near the chin but not touching. Eyebrows raised in excitement. Mouth slightly parted as if about to speak. Hair even wilder, suggesting motion. Violet accent in the lighting."
+    },
+    {
+      "id": "ideas-man-done",
+      "member": "Ideas Man",
+      "member_slug": "ideas-man",
+      "state": "done",
+      "accent_name": "violet",
+      "accent_hex": "#6B5F9E",
+      "filename": "ideas-man-done.png",
+      "source": "user-supplied",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Young, wiry, energetic man. Tousled unruly hair suggesting a mind that won't stop. Open collar. Slight asymmetry - always leaning forward. Same young wiry man in every state: same face, same open-collar shirt, same tousled hair, violet (#6B5F9E) as the single accent colour. Triumphant grin, leaning back with satisfaction. Eyes bright and sparkling. Hair settling but still chaotic. The expression of someone who just said something brilliant and knows it. Violet accent warm in the highlights."
+    },
+    {
+      "id": "product-guy-idle",
+      "member": "Product Guy",
+      "member_slug": "product-guy",
+      "state": "idle",
+      "accent_name": "rose",
+      "accent_hex": "#B98D93",
+      "filename": "product-guy-idle.png",
+      "source": "user-supplied",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Polished, sleek, design-conscious man. Immaculate hair, minimal clothing, refined features. Everything about him is intentional. Same polished man in every state: same face, same immaculate hair, same minimal collarless garment, rose (#B98D93) as the single accent colour. Serene, composed, eyes half-closed in aesthetic appreciation. A knowing, gentle smile. Perfectly groomed. The calm of someone who sees beauty everywhere. Rose accent used sparingly."
+    },
+    {
+      "id": "product-guy-thinking",
+      "member": "Product Guy",
+      "member_slug": "product-guy",
+      "state": "thinking",
+      "accent_name": "rose",
+      "accent_hex": "#B98D93",
+      "filename": "product-guy-thinking.png",
+      "source": "user-supplied",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Polished, sleek, design-conscious man. Immaculate hair, minimal clothing, refined features. Everything about him is intentional. Same polished man in every state: same face, same immaculate hair, same minimal collarless garment, rose (#B98D93) as the single accent colour. Brow furrowed in empathetic concern - he is feeling what the user feels. Head tilted slightly. Eyes focused on something invisible, evaluating. Lips pressed together. Rose accent cooled and restrained."
+    },
+    {
+      "id": "product-guy-done",
+      "member": "Product Guy",
+      "member_slug": "product-guy",
+      "state": "done",
+      "accent_name": "rose",
+      "accent_hex": "#B98D93",
+      "filename": "product-guy-done.png",
+      "source": "user-supplied",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Polished, sleek, design-conscious man. Immaculate hair, minimal clothing, refined features. Everything about him is intentional. Same polished man in every state: same face, same immaculate hair, same minimal collarless garment, rose (#B98D93) as the single accent colour. Warm, satisfied smile - the expression of someone who just witnessed a magical moment. Eyes soft and content. A slight nod captured mid-motion. Rose-tinted warmth in the lighting."
+    },
+    {
+      "id": "pragmatist-idle",
+      "member": "Pragmatist",
+      "member_slug": "pragmatist",
+      "state": "idle",
+      "accent_name": "steel blue",
+      "accent_hex": "#4A79B8",
+      "filename": "pragmatist-idle.png",
+      "source": "user-supplied",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Meticulous, precise man. Clean glasses, tidy appearance, neutral expression by default. The look of someone who reads the fine print. Same meticulous man in every state: same face, same thin-framed clean glasses, same tidy buttoned shirt, steel blue (#4A79B8) as the single accent colour. Neutral, composed, almost clinical. Glasses catching the light. Lips a straight line. The patience of someone who has seen many ideas fail. Steel blue accent used sparingly."
+    },
+    {
+      "id": "pragmatist-thinking",
+      "member": "Pragmatist",
+      "member_slug": "pragmatist",
+      "state": "thinking",
+      "accent_name": "steel blue",
+      "accent_hex": "#4A79B8",
+      "filename": "pragmatist-thinking.png",
+      "source": "user-supplied",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Meticulous, precise man. Clean glasses, tidy appearance, neutral expression by default. The look of someone who reads the fine print. Same meticulous man in every state: same face, same thin-framed clean glasses, same tidy buttoned shirt, steel blue (#4A79B8) as the single accent colour. Deeply focused, eyes narrowed behind the glasses. Index finger resting on the temple. A slight squint - scrutinizing something invisible. The expression of cross-examination. Steel-blue cool tint throughout."
+    },
+    {
+      "id": "pragmatist-done",
+      "member": "Pragmatist",
+      "member_slug": "pragmatist",
+      "state": "done",
+      "accent_name": "steel blue",
+      "accent_hex": "#4A79B8",
+      "filename": "pragmatist-done.png",
+      "source": "user-supplied",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Meticulous, precise man. Clean glasses, tidy appearance, neutral expression by default. The look of someone who reads the fine print. Same meticulous man in every state: same face, same thin-framed clean glasses, same tidy buttoned shirt, steel blue (#4A79B8) as the single accent colour. Measured, satisfied nod. One eyebrow slightly raised - respect earned, not given freely. A tight, controlled smile. Glasses pushed up. The look of 'adequately validated'. Steel blue accent in the highlights."
+    },
+    {
+      "id": "ponytail-idle",
+      "member": "Ponytail",
+      "member_slug": "ponytail",
+      "state": "idle",
+      "accent_name": "azure",
+      "accent_hex": "#4A9AD8",
+      "filename": "ponytail-idle.png",
+      "source": "user-supplied",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Relaxed, laid-back man with an actual ponytail. Casual clothing, a hoodie. The lean-back posture of someone who has been paged at 3am too many times. Same laid-back man in every state: same face, same light stubble, same tied-back ponytail, same hoodie, azure (#4A9AD8) as the single accent colour. Leaning back, arms loosely crossed. Eyes half-lidded, almost bored. A lazy, knowing smirk. The ease of someone who knows the simplest answer. Azure accent used sparingly."
+    },
+    {
+      "id": "ponytail-thinking",
+      "member": "Ponytail",
+      "member_slug": "ponytail",
+      "state": "thinking",
+      "accent_name": "azure",
+      "accent_hex": "#4A9AD8",
+      "filename": "ponytail-thinking.png",
+      "source": "user-supplied",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Relaxed, laid-back man with an actual ponytail. Casual clothing, a hoodie. The lean-back posture of someone who has been paged at 3am too many times. Same laid-back man in every state: same face, same light stubble, same tied-back ponytail, same hoodie, azure (#4A9AD8) as the single accent colour. One eye open wider than the other - skeptical evaluation. Hand lazily scratching the stubble. The expression of 'do we really need to build this?' Slight head tilt backward. Azure accent cool in the shadows."
+    },
+    {
+      "id": "ponytail-done",
+      "member": "Ponytail",
+      "member_slug": "ponytail",
+      "state": "done",
+      "accent_name": "azure",
+      "accent_hex": "#4A9AD8",
+      "filename": "ponytail-done.png",
+      "source": "user-supplied",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Relaxed, laid-back man with an actual ponytail. Casual clothing, a hoodie. The lean-back posture of someone who has been paged at 3am too many times. Same laid-back man in every state: same face, same light stubble, same tied-back ponytail, same hoodie, azure (#4A9AD8) as the single accent colour. Smug, satisfied slouch. A lazy grin that says 'told you so'. Eyes comfortably half-closed. One hand giving a casual thumbs-down to complexity. Azure accent in the relaxed lighting."
+    },
+    {
+      "id": "cto-idle",
+      "member": "CTO",
+      "member_slug": "cto",
+      "state": "idle",
+      "accent_name": "indigo",
+      "accent_hex": "#22357F",
+      "filename": "cto-idle.png",
+      "source": "user-supplied",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Mature, dignified, bearded man. Authoritative without being stern. The gravitas of someone who has scaled systems to millions. Darker clothing, structured. Same mature bearded man in every state: same face, same neatly trimmed full beard, same dark structured jacket, indigo (#22357F) as the single accent colour. Composed, hands clasped behind the back. Deep, steady gaze. Full beard, neatly trimmed. The patience of someone thinking five years ahead. Neutral, watchful. Indigo accent used sparingly."
+    },
+    {
+      "id": "cto-thinking",
+      "member": "CTO",
+      "member_slug": "cto",
+      "state": "thinking",
+      "accent_name": "indigo",
+      "accent_hex": "#22357F",
+      "filename": "cto-thinking.png",
+      "source": "authored",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Mature, dignified, bearded man. Authoritative without being stern. The gravitas of someone who has scaled systems to millions. Darker clothing, structured. Same mature bearded man in every state: same face, same neatly trimmed full beard, same dark structured jacket, indigo (#22357F) as the single accent colour. Deep contemplation - eyes closed or cast downward, processing at depth. One hand slowly stroking the beard. Brow settled rather than furrowed, weighing long-horizon tradeoffs. Utterly still. Indigo cool tint throughout."
+    },
+    {
+      "id": "cto-done",
+      "member": "CTO",
+      "member_slug": "cto",
+      "state": "done",
+      "accent_name": "indigo",
+      "accent_hex": "#22357F",
+      "filename": "cto-done.png",
+      "source": "authored",
+      "prompt": "Minimalist editorial portrait illustration, classical Greek philosopher bust aesthetic reimagined for modern tech, soft natural lighting, clean off-white background (#FAFAFA), muted colour palette with one accent colour per character, fine line work, geometric simplicity, dignified, contemplative, half-body composition centered, no props except where specified, no text, high detail face, subtle grain. Mature, dignified, bearded man. Authoritative without being stern. The gravitas of someone who has scaled systems to millions. Darker clothing, structured. Same mature bearded man in every state: same face, same neatly trimmed full beard, same dark structured jacket, indigo (#22357F) as the single accent colour. Decided. Gaze lifted and levelled directly forward, resolved. A single authoritative nod captured mid-motion. The faintest approving smile beneath the beard. The settled calm of a verdict delivered. Indigo accent deep in the shadows."
+    }
+  ]
+}
