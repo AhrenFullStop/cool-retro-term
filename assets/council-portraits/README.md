@@ -10,24 +10,26 @@ Prompt set for the 5 council members × 3 thinking states = **15 portraits**.
 
 ## Rendering
 
-```sh
-export OPENAI_API_KEY=sk-...
-./generate.py --provider openai
-```
-
-or
+Requires `OPENAI_API_KEY` in the environment. The command:
 
 ```sh
-export GEMINI_API_KEY=...
-./generate.py --provider gemini
+cd assets/council-portraits
+./generate.py --provider openai --quality low
 ```
 
-Existing files are skipped, so a failed run is safe to re-run — it picks up where it
-stopped. Iterate on one character with `--only cto`, or one image with
-`--only cto-thinking`, and add `--force` to overwrite. `--dry-run` prints the exact
-prompts without calling anything.
+That writes 15 PNGs to `png/`. Existing files are skipped, so an interrupted run is
+safe to re-run — it picks up where it stopped.
 
-Model ids move fast. If your account exposes a different one, pass `--model`.
+`--quality` is `low` | `medium` | `high` and is the main cost lever; omit it to take
+the API default. Low is cheapest and good for checking composition and character
+consistency; re-render the keepers at `--quality high --force` once the set looks right,
+since this style leans hard on facial detail.
+
+Other flags: `--only cto` (one member) or `--only cto-thinking` (one image), `--force`
+to overwrite, `--dry-run` to print prompts without calling anything.
+
+Gemini works too, via `GEMINI_API_KEY` and `--provider gemini`. Model ids move fast —
+pass `--model` if your account exposes a different one.
 
 ## How a prompt is assembled
 

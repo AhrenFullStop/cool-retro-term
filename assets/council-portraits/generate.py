@@ -47,16 +47,24 @@ def post(url, payload, headers, timeout=180):
         return json.load(resp)
 
 
-def render_openai(prompt, key, model, size):
+def render_openai(prompt, key, model, size, quality=None):
+    payload = {"model": model, "prompt": prompt, "size": size, "n": 1}
+    if quality:
+        payload["quality"] = quality
     body = post(
         "https://api.openai.com/v1/images/generations",
-        {"model": model, "prompt": prompt, "size": size, "n": 1},
+        payload,
         {"Authorization": f"Bearer {key}"},
     )
-    return base64.b64decode(body["data"][0]["b64_json"])
+    datum = body["data"][0]
+    # gpt-image-1 always returns base64; the dall-e-* models return a URL by default.
+    if "b64_json" in datum:
+        return base64.b64decode(datum["b64_json"])
+    with urllib.request.urlopen(datum["url"], timeout=120) as resp:
+        return resp.read()
 
 
-def render_gemini(prompt, key, model, size):
+def render_gemini(prompt, key, model, size, quality=None):
     body = post(
         f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
         {"contents": [{"parts": [{"text": prompt}]}]},
@@ -79,6 +87,8 @@ def main():
     ap.add_argument("--out", type=pathlib.Path, default=HERE / "png")
     ap.add_argument("--prompts", type=pathlib.Path, default=HERE / "prompts.json")
     ap.add_argument("--size", default="1024x1024", help="openai only")
+    ap.add_argument("--quality", choices=["low", "medium", "high", "auto"],
+                    help="openai only; omitted lets the model decide. Drives cost.")
     ap.add_argument("--only", help="member slug or full image id")
     ap.add_argument("--force", action="store_true", help="overwrite existing files")
     ap.add_argument("--dry-run", action="store_true")
@@ -117,7 +127,8 @@ def main():
 
         for attempt in range(1, args.retries + 1):
             try:
-                dest.write_bytes(render(img["prompt"], key, model, args.size))
+                dest.write_bytes(
+                    render(img["prompt"], key, model, args.size, args.quality))
                 print(f"{tag}: wrote {dest} ({dest.stat().st_size // 1024} KB)")
                 break
             except (urllib.error.URLError, KeyError, IndexError, RuntimeError) as e:
